@@ -11,4 +11,12 @@
     <string name="telefone_obrigatorio">Telefone Obrigatório!</string>
     <string name="email_invalido">Email Invalido!</string>
     <string name="telefone_invalido">Telefone Invalido!</string>
+    <string name="nome2">Nome :</string>
+    <string name="telefone2">Telefone :</string>
+    <string name="email2">Email :</string>
+    <string name="data_de_nascimento2">Data de Nascimento :</string>
+    <string name="joao_martins">Joao Martins</string>
+    <string name="jocafmartins_hotmail_com">jocafmartins@hotmail.com</string>
+    <string name="_962772687">962772687</string>
+    <string name="_14_4_1998">14/4/1998</string>
 </resources>

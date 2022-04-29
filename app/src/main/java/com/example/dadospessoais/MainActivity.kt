@@ -1,5 +1,6 @@
 package com.example.dadospessoais
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
@@ -58,6 +59,17 @@ class MainActivity : AppCompatActivity() {
         val dataNascimento = calendarViewDataNascimento.date
 
         //Todo : Enviar os Dados para uma nova atividade
+
+        val intent = Intent(this,VisualizarDados::class.java)
+
+        startActivity(intent)
+
+        intent.putExtra("Nome",nome)
+        intent.putExtra("Email",email)
+        intent.putExtra("Telefone",telefone)
+        intent.putExtra("Data_Nascimento",dataNascimento)
+
+
 
 
     }
