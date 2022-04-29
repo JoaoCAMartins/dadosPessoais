@@ -6,6 +6,9 @@
     <string name="data_de_nascimento">Data de Nascimento</string>
     <string name="data_nascimento">Data De Nascimento</string>
     <string name="enviar">Enviar</string>
-    <string name="nome_obrigatorio">Preencha nome!</string>
-    <string name="email_obrigatorio">Email errado</string>
+    <string name="nome_obrigatorio">Preencha Nome!</string>
+    <string name="email_obrigatorio">Email Obrigatório!</string>
+    <string name="telefone_obrigatorio">Telefone Obrigatório!</string>
+    <string name="email_invalido">Email Invalido!</string>
+    <string name="telefone_invalido">Telefone Invalido!</string>
 </resources>
