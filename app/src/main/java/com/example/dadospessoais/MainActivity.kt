@@ -33,6 +33,10 @@ class MainActivity : AppCompatActivity() {
         }
 
         val editTextTelefone = findViewById<EditText>(R.id.editTextTelefone)
+        val telefone = editTextTelefone
+        if (telefone.){
+
+        }
 
 
         findViewById<CalendarView>(R.id.calendarViewDataNascimento)
