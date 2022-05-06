@@ -58,19 +58,25 @@ class MainActivity : AppCompatActivity() {
         val calendarViewDataNascimento = findViewById<CalendarView>(R.id.calendarViewDataNascimento)
         val dataNascimento = calendarViewDataNascimento.date
 
-        //Todo : Enviar os Dados para uma nova atividade
-
-        val intent = Intent(this,VisualizarDados::class.java)
+        //TODO: ENVIAR DADOS PARA NOVA ATIVIDADE
+        val intent = Intent(this, VisualizarDados::class.java)
+        intent.putExtra(EXTRA_NOME,nome)
+        intent.putExtra(EXTRA_EMAIL,email)
+        intent.putExtra(EXTRA_TELEFONE,telefone)
+        intent.putExtra(EXTRA_DATA_NASCIMENTO,dataNascimento)
 
         startActivity(intent)
-
-        intent.putExtra("Nome",nome)
-        intent.putExtra("Email",email)
-        intent.putExtra("Telefone",telefone)
-        intent.putExtra("Data_Nascimento",dataNascimento)
-
-
-
+    }
+    companion object{
+        const val EXTRA_NOME = "NOME"
+        const val EXTRA_EMAIL = "EMAIL"
+        const val EXTRA_TELEFONE = "TELEFONE"
+        const val EXTRA_DATA_NASCIMENTO = "DATA_NASCIMENTO"
 
     }
+
+
+
+
+
 }
